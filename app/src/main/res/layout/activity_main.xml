@@ -10,40 +10,62 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아이디"
+        android:text="돌봄받는자 이름"
         android:textColor="#FF0000"
         android:textSize="25sp"
         android:textStyle="bold"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="이메일 양식으로 입력"
+        android:hint="ex)김개똥"
         android:inputType="textEmailAddress"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="연결">
+    </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="해제">
+        </Button>
+
+    </RadioGroup>
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="비밀번호"
+        android:text="걸음걸이"
         android:textColor="#FF0000"
         android:textSize="25sp"
         android:textStyle="bold"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="4글자 이상 입력"
+        android:hint="Step"
         android:inputType="textPassword"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="닉네임"
+        android:text="심박수"
         android:textColor="#FF0000"
         android:textSize="25sp"
         android:textStyle="bold"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="한줄로 입력"
+        android:hint="BPM"
         android:singleLine="true"/>
 
 </LinearLayout>
